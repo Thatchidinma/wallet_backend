@@ -5,6 +5,7 @@ import rateLimiter from "./middleware/rateLimiter.js"
 import transactionsRoute from "./routes/transactionsRoute.js"
 import authRouter from "./routes/authRoute.js";
 import authorize from "./middleware/authMiddlewre.js"
+import cors from "cors"
 
 dotenv.config()
 
